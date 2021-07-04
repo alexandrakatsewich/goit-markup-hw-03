@@ -1,0 +1,258 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --title-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--main-font), sans-serif;
+  background: #ffffff;
+  color: var(--title-color);
+  font-weight: 400;
+}
+
+/*=============CONTAINER=============*/
+.container {
+width: 1200px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+/*=============COMPONENTS=============*/
+
+/*=============HEADER=============*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo,
+.footer-logo {
+  margin-right: 90px;
+  margin-left: 0;
+
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.color-logo-black {
+  color: #000000;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.header-mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.header-mail-link:hover,
+.header-mail-link:focus {
+  color: var(--accent-color);
+}
+/*=============HEADER END=============*/
+
+/*=============MAIN INDEX=============*/
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: var(--accent-color);
+  cursor: pointer;
+}
+
+.about-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background: #f5f4fa;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*=============MAIN END=============*/
+
+/*=============MAIN PORTFOLIO=============*/
+
+.filter-list-btn {
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*=============MAIN PORTFOLIO END=============*/
+
+/*=============FOOTER=============*/
+.footer {
+  background: #2f303a;
+}
+
+.color-logo-white {
+  color: #ffffff;
+}
+
+.address-map {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-map:hover,
+.address-map:focus {
+  color: #2196f3;
+}
+
+.address-mail,
+.address-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:hover,
+.address-tel:hover,
+.address-mail:focus,
+.address-tel:focus {
+  color: #2196f3;
+}
+
+/*=============FOOTER END=============*/
