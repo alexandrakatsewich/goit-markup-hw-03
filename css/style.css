@@ -171,6 +171,8 @@ body {
   margin: 0 auto;
   padding-left: 32px;
   padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   font-weight: 700;
   font-size: 16px;
